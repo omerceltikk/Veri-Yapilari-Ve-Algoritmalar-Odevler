@@ -1,0 +1,92 @@
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+
+1. Dizi 7 ile başladığı için root= 7'dir. , ardından gelen rakam 5 olduğu için rootun solunda bulunur.
+
+						7
+					   /    
+					 5 	   
+	    
+
+2. 5 ten sonra gelen 1 olduğu için 5'in soluna yazılır. 	
+
+					     7
+					   /   
+					 5 	
+				     /
+                           1
+
+3. Ardından gelen 8 rootun sağına yazılır.
+
+					     7
+					   /   \
+					 5 	   8
+				     /
+                           1
+
+4. Ardından gelen 3, 1'in sağına yazılır.   					
+
+					     7
+					   /   \
+					 5 	   8
+				     /
+                           1
+				     \
+					3
+
+5. Ardından gelen 6, 5'in sağına yazılır. 
+
+					     7
+					   /   \
+					 5 	   8
+				     /  \
+                           1     6
+				     \
+					3
+
+6. Ardından gelen 0, 1'in soluna yazılır.
+
+					     7
+					   /   \
+					 5 	   8
+				     /  \
+                           1     6
+				 /   \
+				0	3
+
+7. Ardından gelen 9, 8'in sağına yazılır.
+
+					     7
+					   /   \
+					 5 	   8
+				     /  \	    \
+                           1     6       9
+				 /   \
+				0	3
+
+8. Ardından gelen 4, 3'ün sağına yazılır.
+
+					     7
+					   /   \
+					 5 	   8
+				     /  \	    \
+                           1     6       9
+				 /   \
+				0	3
+					 \
+				        4
+
+
+9. Ardından gelen 2, 3'ün soluna yazılır.
+
+
+
+					     7
+					   /   \
+					 5 	  8
+				     /  \	    \
+                           1     6       9
+				 /   \
+				0	3
+				     / \
+				    2   4

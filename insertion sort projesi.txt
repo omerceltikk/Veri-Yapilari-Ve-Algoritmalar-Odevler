@@ -1,0 +1,57 @@
+_______________________________________________
+
+1.Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
+
+[22,27,16,2,18,6] -> Insertion Sort
+
+[2,27,16,22,18,6] -> 2 ile 22 yer değiştirir.
+
+[2,6,16,22,18,27] -> 6 ile 27 yer değiştirir.
+
+[2,6,16,22,18,27] -> 16 sabit kalır. 
+
+[2,6,16,18,22,27] -> 18 ile 22 yerdeğiştirir.
+
+
+_______________________________________________
+
+2.Big-O gösterimini yazınız.
+
+Big O Notaition'u n.(n+1)/2 den n^2 gelmektedir.
+
+  O(n^2) 
+
+_______________________________________________
+
+3.Time Complexity:
+
+
+Average case:  Aradığımız sayının ortada olması, 
+
+Worst case: Aradığımız sayının sonda olması, 
+
+Best case:  Aradığımız sayının dizinin en başında olması. 
+
+_______________________________________________
+
+4.Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer? Yazınız.
+
+
+dizinin tam ortasındaki eleman olacağı için average case kapsamına girer.
+
+
+_______________________________________________
+
+5.
+
+[7,3,5,8,2,9,4,15,6] -> 2 il 7 yer değiştirir.
+
+[2,3,5,8,7,9,4,15,6] -> 3 sabit kalır.
+
+[2,3,4,8,7,9,5,15,6] -> 4 ile 5 yer değiştirir.
+
+[2,3,4,5,7,9,8,15,6] -> 5 ile 8 yer değiştirir.
+
+
+
+

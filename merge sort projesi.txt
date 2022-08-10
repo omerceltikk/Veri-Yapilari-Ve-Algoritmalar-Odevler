@@ -1,0 +1,42 @@
+[16,21,11,8,12,22] -> Merge Sort
+
+_______________________________________________________
+
+1.
+Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+
+
+        		[16,21,11,8,12,22] -> 
+
+		[16,21,11]       , 	 [8,12,22]
+
+	   [10] , [21,11]              [8] , [12,22]
+
+	[10]     [21], [11]	     [8]	   [12] [22]
+
+	[10] 	   [11,21] 		     [8]        [12,22]
+	
+	   [10,11,21] 			   [8,12,22] 
+
+ 			 [8,10,11,12,21,22] 
+
+________________________________________________________
+
+2. Big-O gösterimini yazınız.
+
+her defasında diziyi 2 ye bölerek işlem yapar. 
+bu nedenle x kez işlem yaptığında;
+
+2^x=n x=logn değerine ulaşılır.
+Ayrıca dizileri birleştirirken her defasında elemanları tarar 
+ve (n-1) kez işlem yapmış olur. Bu nedenle;
+
+(n-1).log den
+
+Big O Notation: O(n.logn) dir
+	
+
+
+	
+
+ 
